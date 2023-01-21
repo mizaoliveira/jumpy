@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    background-color: #1E1E1E;
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+h1 {
+    position: absolute;
+    width: 312px;
+    height: 34px;
+    left: 589px;
+    top: 204px;
+    margin-left: 13%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+
+}
+
+#nome {
+    position: absolute;
+    width: 161px;
+    height: 23px;
+    left: 509px;
+    top: 281px;
+    margin-left: 13%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#email {
+    position: absolute;
+    width: 51px;
+    height: 21px;
+    left: 511px;
+    top: 384px;
+    margin-left: 13%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#telefone {
+    position: absolute;
+width: 79px;
+height: 21px;
+left: 511px;
+top: 486px;
+margin-left: 13%;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+}
+
+#cpf {
+    position: absolute;
+width: 38px;
+height: 21px;
+left: 509px;
+top: 588px;
+margin-left: 13%;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+
+}
+
+#senha {
+    position: absolute;
+width: 58px;
+height: 21px;
+left: 509px;
+top: 692px;
+margin-left: 13%;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+}
+
+#nomep {
+box-sizing: border-box;
+flex-direction: row;
+align-items: center;
+padding: 11px 13px;
+gap: 8px;
+margin-top: 20px;
+position: absolute;
+width: 524px;
+height: 52px;
+left: 509px;
+top: 312px;
+background: rgba(255, 255, 255, 0.9);
+border: 1px solid #181818;
+border-radius: 10px;
+margin-left: 13%;
+}
+
+#emailp {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+    margin-top: 20px;
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 511px;
+    top: 414px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-left: 13%;
+}
+
+#telefonep {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+    margin-top: 20px;
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 511px;
+    top: 516px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-left: 13%;
+}
+
+#cpfp {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+    margin-top: 20px;
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 509px;
+    top: 618px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-left: 13%;
+}
+
+#senhap {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+    margin-top: 20px;
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 509px;
+    top: 720px;   
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-left: 13%;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 36px;
+    gap: 8px;
+    position: absolute;
+    width: 524px;
+    height: 48px;
+    left: 509px;
+    top: 804px;
+    background: #0C70F2;
+    border-radius: 6px;
+    border: none;
+    margin-left: 13%;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Raleway';
+    line-height: 13px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #063675;
+}
+
+#jumpy {
+    position: absolute;
+    width: 311px;
+    height: 74px;
+    left: 598px;
+    top: 103px;
+    margin-left: 13%;
+}
+
+.erroNome {
+    color: #E73550;
+    font-family: 'Raleway';
+    visibility: hidden;
+    margin-left: 1120px;
+    margin-top: 262px;
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  #errogeral {
+    color: #E73550;
+    visibility: hidden;
+    position: absolute;
+    width: 207px;
+    height: 14px;
+    left: 756px;
+    top: 800px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}

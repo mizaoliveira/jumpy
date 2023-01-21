@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpy</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <img id="d" src="dnc.svg">
+        <img id="jumpy" src="jumpy.svg">
+    </header>
+
+</head>
+
+<body>
+    <section id="secao">
+        <form onsubmit="return false">
+            <div>
+                <h1><strong>Bem vindo ao Jumpy!</strong></h1>
+            </div>
+            <div>
+                <p id="nome">Nome Completo:</p>
+                <input id="nomep" type="text" placeholder="Nome completo">
+                <span class="erroNome">*Campo Obrigatório</span>
+            </div>
+            <div>
+                <p id="email">Email:</p>
+                <input id="emailp" type="email" placeholder="Email@email.com">
+                <span class="erroNome">*Campo Obrigatório</span>
+            </div>
+            <div>
+                <p id="telefone">Telefone:</p>
+                <input id="telefonep" type="tel" placeholder="(00) 00000-0000">
+                <span class="erroNome">*Campo Obrigatório</span>
+            </div>
+            <div>
+                <p id="cpf">CPF:</p>
+                <input id="cpfp" type="text" placeholder="000.000.000-00">
+                <span class="erroNome">*Campo Obrigatório</span>
+            </div>
+            <div>
+                <p id="senha">Senha:</p>
+                <input id="senhap" type="password" placeholder="*******************">
+                <span class="erroNome">*Campo Obrigatório</span>
+            </div>
+
+            <button onclick="verificar()" id="respostacadastro" type="submit">Cadastrar</button>
+            <span id="errogeral">*Campos obrigatórios não registrados</span>
+        </form>
+    </section>
+
+    <script src="validacao.js"></script>
+
+</body>
+
+</html>
